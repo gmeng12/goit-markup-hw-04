@@ -229,8 +229,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 .social-list-link:hover, 
                 .social-list-link:focus{background-color: #31d0aa;} 
                     .social-list-icon{fill:#F4F4FD;
-                    
                 }
+                .social-list-link-team:hover, .social-list-link-team:focus {background-color: #404bbf;}
                         .team-item{background-color: #ffffff;
                         width: calc((100%-3*24px)/4);
                 border-radius: 0px 0px 4px 4px;
@@ -296,7 +296,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                             border: 1px solid #e7e9fc;
                         border-top: none;}
                         .port-item{transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-                        .port-item:hover {transform: translateY(0%);
+                        .port-item:hover .overlay-text{transform: translateY(0%);
                         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
                                     /* Page Footer */
                                     .foot-contact{background: #2E2F42;
